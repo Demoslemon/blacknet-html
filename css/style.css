@@ -124,9 +124,9 @@ Table of content:
   --bg-color-even: #E8E8E8;
   --bg-color-odd: #F4F4F4;
   --bg-light: #F8F9FA;
-  --bg-dark-1: #000;
-  --bg-dark-2: #000;
-  --bg-dark-3: #000;  
+  --bg-dark-1: #0A0A0A;
+  --bg-dark-2: #0A0A0A;
+  --bg-dark-3: #0A0A0A;  
   --bg-dark-1-rgb: 0, 0, 0;
   --bg-grey: #eeeeee;
   --bg-gradient-1: 0deg, rgba(var(--primary-color-rgb), .1) 0%, rgba(var(--secondary-color-rgb), .2) 100%;
@@ -11930,7 +11930,8 @@ img {
   position: relative;
   overflow: hidden;
   padding: 30px;
-  background: url('../images/misc/l3.webp');
+  background-color: #121313;
+  /*background: url('../images/misc/l3.webp');*/
   border-radius: var(--rounded-1);
   -moz-border-radius: var(--rounded-1);
   -webkit-border-radius: var(--rounded-1);
@@ -11939,10 +11940,12 @@ img {
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
 .d-ticket.s2{
-  background: url('../images/misc/l4.webp');
+  /*background: url('../images/misc/l4.webp');*/
+  background-color: #121313;
 }
 .d-ticket.s3{
-  background: url('../images/misc/l5.webp');
+  /*background: url('../images/misc/l5.webp');*/
+  background-color: #121313;
 }
 .d-ticket h2{
   font-size: 36px;

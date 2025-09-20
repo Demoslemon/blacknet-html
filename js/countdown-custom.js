@@ -1,6 +1,9 @@
-jQuery(document).ready(function() {
-        $(function () {
-            $('#defaultCountdown').countdown({until: new Date(2025, 12-1, 10, 8)}); // year, month, date, hour
-        });
-});		
+jQuery(document).ready(function () {
+    $(function () {
+        // Obtener hoy a las 23:59:59
+        const now = new Date();
+        const endOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 59, 59);
 
+        $('#defaultCountdown').countdown({ until: endOfDay });
+    });
+});
